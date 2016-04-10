@@ -6,16 +6,18 @@ What value do you think it offers?
     The staging area allows programmers to review which files will be pushed "live" in their commit. This allows for better control and understanding for breaking down files and saves.
     Being able to have a buffer between the working directory gives great control between these items. 
 
-How can you use the staging area to make sure you have one commit per logical
-change?
+How can you use the staging area to make sure you have one commit per logical change?
+    When you commit a single change per programming this allows you to backtrack the document and where it currently stands. In writing this process I had to backtrack and figure out how commits/saving and changing this file was effecting the git log for this item. 
+    Because the file makes you think through the staging area, it is beneficial to review all the changes before publishing.
 
-What are some situations when branches would be helpful in keeping your history
-organized? How would branches help?
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+    Branches become really helpful when experimental items want to be had. Additionally branches help break up different versions of the code as in this instance of the asteroid game. Instead of creating or managing a bunch on new files for the "easy-mode" we simply branch the item and make the changes that we may want.
 
 How do the diagrams help you visualize the branch structure?
+    Breaking down the Git diagrams help insure the reachability of all of the branches and commits. This is significantly useful when there are multiple individuals working on a single project.
 
-What is the result of merging two branches together? Why do we represent it in
-the diagram the way we do?
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+    Merging two branches together combines the total changes into a single file. If there are any problems between portions of the code like I had an error will be thrown out. After merging the items the new master branch offers a way to chronologically view all of the changes. We view it in a tree diagram to understand parent and child relationships. Additionally it helps us understand how to properly merge changes we have throughout the project and inbetween developers.
 
-What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
-manually?
+What are the pros and cons of Githubs automatic merging vs. always doing merges manually?
+    Merging Manual commits allows individuals to control, fix, and understand the files as progressions goes. This insures that proper care is taken throughout development work. hopefully.
